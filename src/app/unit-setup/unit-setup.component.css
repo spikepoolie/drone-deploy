@@ -1,0 +1,14 @@
+.unitSetupHeader {
+  background-color: #5782DC;
+  color:white;
+  text-align: center;
+}
+
+.distanceUnitHeader {
+  text-align: center;
+  font-size:10pt;
+}
+
+.card170 {
+  height: 270px !important;
+}

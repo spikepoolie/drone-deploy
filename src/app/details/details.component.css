@@ -1,0 +1,25 @@
+.detailsHeader {
+  background-color: #5782DC;
+  color:white;
+  text-align: center;
+}
+
+.addressLink{
+  text-align: right;
+  color:#4185F4;
+  text-decoration: underline;
+}
+
+.addressDescr{
+  text-align: center;
+  color:#4185F4;
+  padding:3px;
+}
+
+.card170 {
+  height: 270px !important;
+}
+
+.unitM {
+  text-align: right;
+}

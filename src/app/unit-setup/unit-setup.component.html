@@ -1,0 +1,42 @@
+<div class="card">
+    <div class="rounded-top text-center " class="unitSetupHeader" >Configuration</div>
+      <div class="card-body card170">
+        <div  class="distanceUnitHeader">Distance Unit</div>
+        <div class="row"><div class="col-12"><hr></div></div>
+        <div class="row"><div class="col-12"><br></div></div>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-4">
+            <div class="custom-control custom-radio">
+              <input
+                type="radio"
+                class="custom-control-input"
+                id="kilometers"
+                checked
+                name="unitmeasureradio"
+                (click)="isKilometerChecked('kilometers')"
+                [disabled]="hasKilometersBeenClicked"
+              >
+              <label class="custom-control-label" for="kilometers">kilometers</label>
+            </div>
+            <div class="col-1"></div>
+          </div>
+
+          <div class="col-1"></div>
+          <div class="col-4">
+            <div class="custom-control custom-radio">
+              <input
+                type="radio"
+                class="custom-control-input"
+                id="miles"
+                name="unitmeasureradio"
+                (click)="isKilometerChecked('miles')"
+                [disabled]="hasMilesBeenClicked"
+              >
+              <label class="custom-control-label" for="miles">miles</label>
+           </div>
+          </div>
+          <div class="col-1"></div>
+      </div>
+    </div>
+  </div>

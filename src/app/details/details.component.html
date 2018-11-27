@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="rounded-top text-center" class="detailsHeader" >Details</div>
+
+  <div class="card-body card170">
+    <div class="row">
+      <div class="col-3">
+        <p style="font-size:12pt;">Unit</p>
+        <p style="font-size:12pt;">Distance</p>
+        <p style="font-size:12pt;">Point A</p>
+        <p style="font-size:12pt;">Point B</p>
+      </div>
+
+      <div class="col-9">
+          <p class="unitM">{{unitMeasure}}</p>
+          <p class="unitM">{{myDistance}}</p>
+          <p class="addressLink" (click)="showAddress(pointASub);">[ {{pointASub}} ]</p>
+          <p class="addressLink" (click)="showAddress(pointBSub);">[ {{pointBSub}} ]</p>
+        </div>
+        <div class="row" *ngIf="showFullAddress">
+          <div class="col-12" style="text-align: right;"><p class="addressDescr">{{address}}</p></div>
+        </div>
+
+      </div>
+
+  </div>
+</div>
+
